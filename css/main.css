@@ -1,0 +1,37 @@
+h1 {
+  margin-top: 2em;
+}
+
+.avatar {
+  float: center;
+  width: 30%;
+}
+
+img {
+  width: 3em;
+}
+
+.btn {
+  margin: .5em;
+}
+
+.sortable {
+  margin: auto;
+  margin-top: 15px;
+}
+
+table, th , td  {
+  margin-top: 40px;
+  border: 2px solid grey;
+  padding: 5px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+table tr:nth-child(odd) {
+  background-color: #99ccff;
+}
+
+table tr:nth-child(even) {
+  background-color: #fff;
+}
