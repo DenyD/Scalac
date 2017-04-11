@@ -1,0 +1,124 @@
+@media screen and (max-width: 480px) {
+	
+/****************************************
+                Main
+****************************************/    
+    .btn {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h3, 
+    input {
+        font-size: 0.7em;
+    }
+
+
+
+/****************************************
+            	TABELA
+****************************************/
+    #tabela{
+        font-size: 0.5em;
+    }
+
+    table, 
+    th , 
+    td  {
+    margin-top: 10px;
+    border: 2px solid grey;
+    padding: 3px 0;
+    text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+
+/****************************************
+            	Main
+****************************************/
+    .btn {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h3, 
+    input {
+        font-size: 1em;
+    }
+
+
+
+/****************************************
+            	TABELA
+****************************************/
+    #tabela{
+        font-size: 0.6em;
+    }
+
+    table, 
+    th , 
+    td  {
+    margin-top: 10px;
+    border: 2px solid grey;
+    padding: 2px 2px;
+    text-align: center;
+    }
+
+
+/****************************************
+            HIDE logo&followings
+****************************************/
+
+    .userLogo,
+    .follow {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+
+/****************************************
+            	Main
+****************************************/
+.btn {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h3, 
+    input {
+        font-size: 1em;
+    }
+
+
+/****************************************
+            	TABELA
+****************************************/
+    #tabela{
+        font-size: 0.8em;
+    }
+
+    table, 
+    th , 
+    td  {
+    margin-top: 30px;
+    border: 2px solid grey;
+    padding: 2px 2px;
+    text-align: center;
+    }
+}

@@ -9,6 +9,7 @@
     <!-- Bootsrtrap and CSS -->
     <link rel="stylesheet" href="https://bootswatch.com/cerulean/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
   </head>
 
   <body ng-app="app" ng-controller="lista">
@@ -45,7 +46,7 @@
               <img class="img-rounded avatar" src="https://avatars0.githubusercontent.com/u/139426?v=3">
             </div>
             <div>
-              <a class="btn btn-info" href="https://api.github.com/users/angular" target="_blank">Angular profile</a>
+              <a class="btn btn-info" href="https://github.com/angular" target="_blank">Angular profile</a>
             </div>
             <br>              
             <button class="btn btn-primary btn-block" id="showList">Show Angular Rank</button>
@@ -56,15 +57,15 @@
             <table id="tabela" class="sortable">
               <thead>
                 <tr>
-                  <th class="sorttable_nosort">Avatar</th>
+                  <th class="sorttable_nosort userLogo">Avatar</th>
                   <th class="sorttable_numeric">Nr: </th>
                   <th>Name: </th>
-                  <th class="sorttable_numeric">Contributions: </th>
-                  <th class="sorttable_numeric">Repositories: </th>
+                  <th class="sorttable_numeric">Contributs: </th>
+                  <th class="sorttable_numeric">Repos: </th>
                   <th class="sorttable_numeric">Gists: </th>
                   <th class="sorttable_numeric">Followers: </th>
-                  <th class="sorttable_numeric">Following: </th> 
-                  <th class="sorttable_numeric">Profile: </th>            
+                  <th class="sorttable_numeric follow">Following: </th> 
+                  <th class="sorttable_nosort">Profile: </th>            
                 </tr>
               </thead>
               <tbody id="info">

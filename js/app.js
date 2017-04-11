@@ -15,14 +15,14 @@ $(document).ready(function() {
       getUserDetails(user.login).done(function(info) {
         $('#info').append (`
           <tr class="item">
-            <td><img src="${user.avatar_url}" /></td>
+            <td class="userLogo"><img src="${user.avatar_url}" /></td>
             <td>${index+1}</td>
             <td class="userName">${user.login}</td>
             <td><span class="label label-default">${user.contributions}</span></td>
             <td><span id="userRepos" class="label label-primary">${info.public_repos}</span></td>
             <td><span id="userGists" class="label label-primary">${info.public_gists}</span></td>
             <td><span id="userFollowers" class="label label-info">${info.followers}</span></td>
-            <td><span id="userFollowing" class="label label-info">${info.following}</span></td>
+            <td class="follow"><span id="userFollowing" class="label label-info">${info.following}</span></td>
             <td><a href="${user.html_url}" class="btn btn-warning" target="_blank">View Profile</a></td>
           </tr>             
         `);  
