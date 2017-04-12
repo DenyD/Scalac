@@ -19,6 +19,10 @@ img {
   margin: .5em;
 }
 
+#showList {
+  width: 40%;
+  margin: auto;
+}
 .sortable {
   margin: auto;
   margin-top: 15px;
