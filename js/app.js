@@ -21,7 +21,7 @@ $(document).ready(function() {
             <td><span class="label label-default">${user.contributions}</span></td>
             <td><span id="userRepos" class="label label-primary">${info.public_repos}</span></td>
             <td><span id="userGists" class="label label-primary">${info.public_gists}</span></td>
-            <td><span id="userFollowers" class="label label-info">${info.followers}</span></td>
+            <td class="follow"><span id="userFollowers" class="label label-info">${info.followers}</span></td>
             <td class="follow"><span id="userFollowing" class="label label-info">${info.following}</span></td>
             <td><a href="${user.html_url}" class="btn btn-warning" target="_blank">View Profile</a></td>
           </tr>             

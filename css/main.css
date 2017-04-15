@@ -3,7 +3,12 @@ body {
 }
 
 h1 {
+  padding-bottom: 50px;
   margin-top: 3em;
+}
+
+.navbar-nav {
+  float: right;
 }
 
 .avatar {
@@ -23,6 +28,7 @@ img {
   width: 40%;
   margin: auto;
 }
+
 .sortable {
   margin: auto;
   margin-top: 15px;
@@ -32,22 +38,27 @@ input {
   width: 50%;
 }
 
-#tabela {
-  width: 60%;
-}
 
 table th {
   cursor: pointer;
+}
+
+table {
+  border: 1px solid grey;
 }
 
 table, 
 th , 
 td  {
   margin-top: 40px;
-  border: 2px solid grey;
   padding: 5px;
   text-align: center;
   font-size: 1.2em;
+}
+
+table th {
+  color: #fff;
+  background-color: #0066ff;
 }
 
 table tr:nth-child(odd) {
@@ -56,4 +67,11 @@ table tr:nth-child(odd) {
 
 table tr:nth-child(even) {
   background-color: #fff;
+}
+
+footer {
+  color: #808080;
+  margin-top: 150px;
+  text-align: center;
+  line-height: 2em;
 }
